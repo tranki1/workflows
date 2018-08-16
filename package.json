@@ -33,10 +33,13 @@
     "gulp-concat": "^2.6.1",
     "gulp-connect": "^5.5.0",
     "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.1.0",
     "gulp-jsonminify": "^1.1.0",
     "gulp-minify-html": "^1.0.6",
     "gulp-uglify": "^3.0.1",
     "gulp-util": "^3.0.8",
+    "imagemin-optipng": "^5.2.1",
+    "imagemin-pngcrush": "^5.1.0",
     "jquery": "^3.3.1",
     "mustache": "^2.3.1",
     "pump": "^3.0.0"
