@@ -1,6 +1,6 @@
-# Gulp.js, Git, and Browserify: Web Project Workflows
+# Gulp.js: Web Project Workflows
 
-This is a showcase for workflows management.
+This is a showcase for my personal workflows management.
 
 ## Introduction
 
@@ -18,4 +18,4 @@ Modern front-end development means more than just writing HTML, CSS, and JavaScr
 
 ## More information
 
-The project was build base on a workflows course from lynda.com
+The personal setup was personalized base on a workflows course from lynda.com
