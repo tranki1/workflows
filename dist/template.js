@@ -1,1 +1,0 @@
-$(function(){var s=require("mustache");$.getJSON("js/data.json",function(t){var e=$("#speakerstpl").html(),a=s.to_html(e,t);$("#speakers").html(a)})});
