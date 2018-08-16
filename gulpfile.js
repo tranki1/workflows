@@ -4,7 +4,9 @@ var gulp = require("gulp"),
   browserify = require("gulp-browserify"),
   compass = require("gulp-compass"),
   connect = require("gulp-connect"),
-  concat = require("gulp-concat");
+  concat = require("gulp-concat"),
+  gulpif = require("gulp-if"),
+  uglify = require("gulp-uglify");
 
 var env,
   coffeeSources,
@@ -45,6 +47,7 @@ gulp.task("js", function() {
     .src(jsSources)
     .pipe(concat("script.js"))
     .pipe(browserify())
+    .pipe(gulpif(env === "production", uglify()))
     .pipe(gulp.dest(outputDir + "js"))
     .pipe(connect.reload());
 });
